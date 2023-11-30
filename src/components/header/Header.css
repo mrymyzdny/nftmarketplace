@@ -1,0 +1,132 @@
+.header-1 {
+    margin: 10% auto 10% auto;
+    width: 100%;
+    text-align: center;
+}
+
+.h-first {
+    font-size: 100px;
+    color: #fff;
+    margin: 0;
+}
+
+.h-second {
+    font-size: 100px;
+    -webkit-text-stroke-color: #CEF54B;
+    -webkit-text-stroke-width: 1px;
+    color: transparent;
+    margin: 0;
+}
+
+.h-third {
+    font-size: 100px;
+    color: #fff;
+    margin: 0;
+}
+
+.title-group {
+    display: flex;
+    justify-content: center;
+    margin: 0 15%;
+}
+
+.h-text {
+    width: 350px;
+    color: #444444;
+    font-size: 18px;
+    text-align: left;
+    padding: 25px 0 0 10px;
+}
+
+.star-1-div {
+    text-align: right;
+}
+
+#star-1  {
+    margin: 10px 15% 0 0;
+    animation: .5s linear 1s infinite alternate slidein;
+}
+
+#star-2 {
+    display: block;
+    margin-left: 10% ;
+    animation: .5s linear 1s infinite alternate slidein;
+}
+
+#star-3 {
+    background-color: #CEF54B;
+    width: 20px;
+    height: 20px;
+    padding: 10px 10px;
+    margin: 25% 0 50px 90px;
+    text-align: right;
+    border-radius: 45%;
+    animation: 1s linear 1s infinite alternate slidein;
+}
+
+@keyframes slidein {
+    from {
+      transform: translatex(12px);
+    }
+    to {
+      transform: translatex(0);
+    }
+  }
+
+
+
+
+
+/* header-2 */
+.header-2 {
+    max-width: 100%;
+    width: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.iteck-img-1  {
+    max-width: 100%;
+    width: 350px;
+    border-radius: 200px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    height: 650px;
+    margin-top: 80px;
+    object-fit: cover;
+}
+.iteck-img-2 {
+    max-width: 100%;
+    width: 350px;
+    border-radius: 200px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    height: 650px;
+    object-fit: cover;
+}
+
+.column {
+    position: absolute;
+    left: 35%;
+    
+}
+
+#column-title {
+    position: relative;
+    top: 100px;
+    right: 80px;
+    color: #fff;
+    font-size: 15px;
+}
+
+#linearrow {
+    margin: 0px 10px 90px 30px;
+}
+
+#sampel-img {
+    width: 20%;
+    top: 5px;
+    border-radius: 10px;
+}

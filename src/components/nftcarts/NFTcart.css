@@ -1,0 +1,54 @@
+.cart {
+    width: 250px;
+    height: auto;
+    border: 1px solid #444444;
+    border-radius: 4px;
+    margin: 20px;
+}
+
+.cart:hover {
+    border: 1px solid yellowgreen;
+    cursor: pointer;
+}
+
+.cart i {
+    font-size: 12px;
+    color: yellowgreen;
+}
+
+.cart p {
+    color: #444444 ;
+}
+
+.cart img {
+    position: relative;
+    width: 100%;
+}
+
+.cart i {
+    margin:  0 5px 0 15px;
+}
+
+.nft-desc {
+    margin: 5px 0 0 15px;
+}
+
+.nft-desc span {
+    color: yellowgreen;
+}
+
+.cart .nft-name {
+    color: #fff;  
+    font-weight: bold;
+    margin: 0 0 0 15px;
+}
+
+.nft-details {
+    display: flex;
+    justify-content: start;
+    margin: 15px 5px 20px 0;
+}
+
+.nft-details span {
+    color: #444444;
+}

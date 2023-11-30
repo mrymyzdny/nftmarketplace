@@ -1,0 +1,39 @@
+.process {
+    width: 280px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+.process:hover {
+    background-color: #0d0d0de9;
+    border-top: 3px solid yellowgreen;
+}
+
+.process > img {
+    margin: 40px auto 10px auto;
+    width: 70px;
+    height: 70px;
+}
+
+.step-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.step-desc {
+    color: #919191;
+    text-align: center;
+    padding: 8px;
+}
+
+.step {
+    color: yellowgreen;
+    margin-bottom: 30px;
+}

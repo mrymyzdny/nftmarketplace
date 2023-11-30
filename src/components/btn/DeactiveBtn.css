@@ -1,0 +1,16 @@
+.deactive {
+    background-color: #35353546;
+    color: #575757;
+    padding: 12px 22px;
+    border: none;
+    border-radius: 5px ;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin: 15px;
+}
+
+button img {
+    width: 20px;
+    height: 16px;
+}
+

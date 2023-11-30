@@ -1,0 +1,31 @@
+.user-section {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.title {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.title img {
+    width: 30px;
+    height: 30px;
+    margin: 10px 5px;
+}
+
+.description p {
+    color: #ffff;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.description span {
+    font-size: 55px;
+    -webkit-text-stroke-color: #CEF54B;
+    -webkit-text-stroke-width: .3px;
+    color: transparent;
+    margin: 0;
+}

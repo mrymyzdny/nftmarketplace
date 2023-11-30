@@ -1,0 +1,30 @@
+
+body {
+  background-color: #18161a;
+}
+
+
+.nft-carts {
+  width: 80%;
+  margin: 0 auto 80px auto;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+
+.users {
+  width: 60%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 250px 250px 250px 250px;
+  gap: 50px 40px;
+  justify-content: center;
+}
+
+
+.processes {
+  width: 70%;
+  margin:  auto;
+  display: flex;
+  border-bottom: 1px solid #5e5e5e;
+}

@@ -1,0 +1,40 @@
+.user {
+    height: auto;
+    border: none;
+    background-color: #35353546;
+    display: flex;
+    border-radius: 8px;
+    z-index: 2;
+}
+
+.users-container:hover {
+    border: 2px solid yellowgreen;
+    border-radius: 8px;
+}
+
+.user-img {
+    width: 70px;
+    height: 70px;
+    position: cover;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    color: #FFFF;
+    padding: auto;
+}
+
+.user-name {
+    font-weight: bold;
+}
+
+.user-info > div {
+    padding: auto;
+}
+
+.amount {
+    color: yellowgreen;
+}

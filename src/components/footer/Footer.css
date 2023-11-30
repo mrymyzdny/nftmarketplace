@@ -1,0 +1,136 @@
+
+.footer {
+    position: absolute;
+    width: 100%;
+    margin: 200px 0 300px 0;
+    background-color: #080808;
+}
+
+.community-section {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    height: 120px;
+    margin: auto;
+    border: 2px solid yellowgreen;
+    border-radius: 10px;
+    top: -60px;
+    background-color: rgb(22, 22, 22);
+}
+
+.description {
+    margin: auto;
+}
+
+.description p {
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.description span {
+    font-size: 35px;
+    -webkit-text-stroke-color: #CEF54B;
+    -webkit-text-stroke-width: .3px;
+    color: transparent;
+    margin: 0;
+}
+
+.email {
+    margin: auto;
+}
+
+.email div {
+    display: inline;
+    background-color: #35353546;
+    border: none;
+    color: #ffff;
+    margin: auto;
+    padding:  13px 10px;
+}
+  
+.email button {
+    border-radius: 0 7px 7px 0;
+    padding: 15px;
+    color: #000;
+    cursor: pointer;
+    border: none;
+    height: 50px;
+    background-color: yellowgreen;
+}
+  
+.email input {
+    width: 200px;
+    padding: 15px;
+    height: auto;
+    margin: auto;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.links div {
+    width: 16px;
+    height: 16px;
+    background-color: #35353546;
+    padding: 18px;
+    margin: 6px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.links i {
+    font-size: 15px;
+    color: #fff;
+}
+
+.footer-section {
+    width: 70%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #3939399d;
+}
+
+.left-footer {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    color: #919191;
+}
+
+.left-footer img {
+    border-right: none;
+}
+
+.right-footer {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+}
+
+.right-footer div {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.right-footer p {
+    font-size: 20px;
+}
+
+.right-footer a {
+    text-decoration: none;
+    color: #919191;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.right-footer a:hover {
+    color: yellowgreen;
+}
